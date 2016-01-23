@@ -3,6 +3,7 @@ require 'json'
 
 
 server = TCPServer.open(2000)
+
 loop {
   Thread.start(server.accept) do |client|
     

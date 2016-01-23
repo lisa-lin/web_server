@@ -10,7 +10,6 @@ The command line browser will interact with server to either get `index.html`, o
 Sample output for GET request:
 
 ```
-jamies-air:sockets jxberc$ ruby browser.rb
 What type of request do you want to submit [GET, POST]? GET
 
 <!DOCTYPE html>
@@ -19,9 +18,7 @@ What type of request do you want to submit [GET, POST]? GET
   <title></title>
 </head>
 <body>
-  <h1>Welcome to my personal Homepage</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, incidunt et maiores illo voluptatibus quia non quidem numquam fugiat pariatur aliquam molestias nemo ipsam deserunt est dolores corporis. Facilis, voluptas!</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, iste, deleniti, aliquam velit est porro tenetur animi officia consequatur excepturi laborum dolores dolor dignissimos? Officiis consequuntur neque soluta asperiores nostrum.</p>
+  <h1>Welcome to my personal homepage!</h1>
 </body>
 </html>
 ```
@@ -29,17 +26,16 @@ What type of request do you want to submit [GET, POST]? GET
 Sample output for POST request:
 
 ```
-jamies-air:sockets jxberc$ ruby browser.rb
 What type of request do you want to submit [GET, POST]? POST
-Enter name: Jeremiah
-Enter e-mail: jjohnson@email.com
+Enter name: Lisa
+Enter e-mail: llin@email.com
 
 <html>
   <body>
     <h1>Thanks for Posting!</h1>
     <h2>Here's what we got from you:</h2>
     <ul>
-      <li>name: Jeremiah</li><li>e-mail: jjohnson@email.com</li>
+      <li>name: Lisa</li><li>e-mail: llin@email.com</li>
     </ul>
   </body>
 </html>
