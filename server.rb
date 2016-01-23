@@ -1,4 +1,4 @@
-require 'socket'
+require 'socket'	# Provides TCPServer and TCPSocket classes
 require 'json'
 
 
