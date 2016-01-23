@@ -1,7 +1,7 @@
 ## Web Server and Browser (from the command line)
 This is a very simple Ruby web server and browser, in which you can issue GET and POST requests and see the HTTP response of those requests.
 
-**Directions**
+**Directions:**
 
 In one tab of your terminal, run `server.rb`.
 
